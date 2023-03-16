@@ -1,0 +1,42 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    
+} */
+  
+body{
+    /* width: 100vw; */
+    margin: 0;
+    padding: 0;
+    /* height: 70%; */
+    background-image: url("images/bgimg.jpg");
+    background-size: cover;
+    background-position: center;
+    /* animation: color 2s linear infinite; */
+   
+}
+
+.rain{
+    height: 100vh;
+    background-image: url(/images/rain\ \(1\).png);
+    animation: rain 0.3s linear infinite;
+ } 
+
+/* @keyframes color{
+0%,100%{
+    filter: hue-rotate(0deg);
+}
+50%{
+    filter: hue-rotate(360deg);
+
+}
+} */
+
+@keyframes rain{
+    0%{
+        background-position: 0% 0%;
+    }
+    100%{
+        background-position: 20% 100%;
+    }
+}
